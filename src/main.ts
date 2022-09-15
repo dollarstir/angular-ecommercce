@@ -1,8 +1,12 @@
 import { enableProdMode } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+
+
+Title :'Kofi';
 
 if (environment.production) {
   enableProdMode();
